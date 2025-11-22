@@ -1,0 +1,10 @@
+revenue = float(input("Enter total revenue: $"))
+costs = float(input("Enter total costs: $"))
+Profit = revenue - costs
+margin = (Profit/revenue) * 100
+
+print("--- Financial Summary ---")
+print(f"Revenue: ${revenue:,.2f}")
+print(f"Costs: ${costs:,.2f}")
+print(f"Profit: ${Profit:,.2f}")
+print(f"Profit Margin: {margin:.1f}%")
